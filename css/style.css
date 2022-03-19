@@ -1,0 +1,39 @@
+.catchcopy {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.about_contents {
+  line-height: 150%;
+}
+
+.about_contents span {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.contact_area label {
+  display: inline-block;
+  font-weight: bold;
+  width: 150px;
+  padding: auto;
+  text-align: center;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+select {
+  margin-left: 0px;
+}
+
+textarea {
+  vertical-align: middle;
+}

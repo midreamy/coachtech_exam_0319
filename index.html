@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1 class="catchcopy">キャッチコピー</h1>
+  <div class="about_container">
+    <h2 class="about_title">About</h2>
+    <p class="about_contents">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の方でも<span>「独自の学習ノウハウ」</span>でフリーランスを目指すことができます。</p>
+  </div>
+  <div class="blog_container">
+    <h2 class="blog_container_title">ブログ</h2>
+    <img src="img/blog__eyecatch1.jpg" alt="blog__eyecatch1.jpg">
+    <h3 class="blog_title">コーチテックブログのタイトルがここには入ります。</h3>
+    <img src="img/blog__eyecatch2.jpg" alt="blog__eyecatch2.jpg">
+    <h3 class="blog_title">コーチテックブログのタイトルがここには入ります。</h3>
+    <img src="img/blog__eyecatch3.jpg" alt="blog__eyecatch3.jpg">
+    <h3 class="blog_title">コーチテックブログのタイトルがここには入ります。</h3>
+  </div>
+  <div class="contact_container">
+    <h2>問い合わせ</h2>
+    <div class="contact_area">
+      <p>
+        <label for="name">名前</label><input type="text" name="NAME" class="input">
+      </p>
+      <p>
+        <label for="email">メールアドレス</label><input type="text" name="EMAIL" class="input">
+      </p>
+      <p>
+        <label for="inquiry">用件</label>
+        <select name="inquiry" class="input">
+          <option value="company">コーチテックについて</option>
+          <option value="service">サービスについて</option>
+          <option value="advertisement">広告掲載について</option>
+        </select>
+      </p>
+      <p>
+        <label for="subject">内容</label><textarea name="subject" cols="30" rows="10" class="input"></textarea>
+      </p>
+    </div>
+    <input type="button" value="削除" onclick="clearText()">
+    <input type="submit" value="送信">
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
